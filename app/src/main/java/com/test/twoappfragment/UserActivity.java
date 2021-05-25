@@ -1,14 +1,12 @@
 package com.test.twoappfragment;
 
-import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
 
-import android.os.Bundle;
-
-public class UserActivity extends AppCompatActivity {
+public class UserActivity extends SingleFragmentActivity{
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user);
+    protected Fragment createFragment() {
+        Fragment fragment = new UserFragment();
+        return fragment;
     }
 }

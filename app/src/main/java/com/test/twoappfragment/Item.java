@@ -1,8 +1,9 @@
 package com.test.twoappfragment;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+// Эту строку заменить import android.support.v7.app.AppCompatActivity;
+// на эту import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Item extends AppCompatActivity {
 

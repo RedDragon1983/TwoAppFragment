@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TwoAppFragment</string>
+    <string name="redact">Редактировать</string>
+    <string name="addUser">Добавить пользователя</string>
 </resources>

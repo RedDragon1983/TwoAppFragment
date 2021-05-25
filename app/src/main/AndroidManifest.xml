@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TwoAppFragment">
-        <activity android:name=".Item"></activity>
+        <activity android:name=".Item" />
         <activity android:name=".UserActivity" />
         <activity android:name=".AddUserActivity" />
         <activity android:name=".MainActivity">
