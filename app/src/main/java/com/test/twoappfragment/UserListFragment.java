@@ -82,7 +82,7 @@ public class UserListFragment extends Fragment {
                 @Override
                 public void onClick(View v) {
                     //Toast.makeText(MainActivity.this, "test", Toast.LENGTH_LONG).show();
-                    Intent intent = new Intent(getActivity(), UserActivity.class);
+                    Intent intent = new Intent(getActivity(), UserPagerActivity.class);
                     intent.putExtra("position",position);
                     startActivity(intent);
                 }
